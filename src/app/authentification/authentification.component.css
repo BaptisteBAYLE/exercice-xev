@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+mat-card {
+    margin: 10px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    min-width: 350px;
+    
+}
+
+mat-card-title {
+ margin-bottom: 40px;
+ 
+ font-size: xx-large;
+}
+
+mat-card-action {
+    margin-top: 15px;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}

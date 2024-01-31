@@ -1,0 +1,38 @@
+<section class="new-book-page">
+    <mat-card class="new-book-page">
+        <mat-card-header>
+            <h2>Nouveau Livre</h2>
+        </mat-card-header>
+
+        <mat-card-content>
+
+            <form   class="new-book-form" [formGroup]="newBookForm" (submit)="addBook()" >
+                <mat-form-field>
+                    <mat-label>Auteur</mat-label>
+                    <input matInput placeholder="Auteur" formControlName="author">
+                </mat-form-field>
+            
+                <mat-form-field>
+                    <mat-label>Titre</mat-label>
+                    <input matInput placeholder="Titre" formControlName="title">
+                </mat-form-field>
+            
+                <mat-form-field>
+                    <mat-label>Note</mat-label>
+                    <input matInput type="number" min="0" max="5" placeholder="Note / 5" formControlName="rating">
+                </mat-form-field>
+            
+                <mat-form-field>
+                    <mat-label>Commentaire</mat-label>
+                    <textarea matInput formControlName="comment"></textarea>
+                </mat-form-field>
+    
+                <button mat-fab extended type="submit">
+                    <mat-icon>add</mat-icon>
+                    Ajouter 
+                </button>
+            </form>
+        </mat-card-content>
+    </mat-card>
+    <a routerLink="/"><button mat-fab class="home"><mat-icon>home</mat-icon></button></a>
+</section>

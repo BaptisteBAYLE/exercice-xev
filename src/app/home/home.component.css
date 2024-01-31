@@ -1,0 +1,15 @@
+.app-home {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.add {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+}
+
+app-book {
+    margin-left: 30px;
+}

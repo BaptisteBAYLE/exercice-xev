@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+mat-card {
+    margin: 10px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    min-width: 350px;
+    
+}
+
+.home {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+}
+
+mat-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+ margin-bottom: 40px;
+ 
+ font-size: xx-large;
+}
+
+.new-book-page {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+

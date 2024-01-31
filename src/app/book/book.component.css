@@ -1,0 +1,27 @@
+mat-card {
+    width: 250px;
+    height: 300px;
+    margin: 5px 0 0 0;
+    
+
+    justify-content: space-between;
+}
+
+mat-card-title {
+    margin: 15px;
+}
+
+ma-card-content {
+    margin: 20px;
+}
+
+mat-card-actions {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+h4 {
+    margin: 0;
+}
+

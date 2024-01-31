@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "exercice-recrutement-xev": {
+      "hosting": {
+        "bibliotheque-perso": [
+          "exercice-recrutement-xev"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "exercice-recrutement-xev"
+  }
+}
